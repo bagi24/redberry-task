@@ -63,15 +63,15 @@ form input {
   padding: 11px 20px 9px 20px;
 }
 
-#name,
+/* #name,
 #surname {
   margin-bottom: 47px;
-}
+} */
 
 form hr {
   width: 237px;
   border: 0.8px solid var(--dark);
-  margin-top: 111px;
+  margin-top: 64px;
 }
 
 .info-img {
@@ -90,4 +90,17 @@ form hr {
 .next-btn {
   background: transparent;
   border: none;
+}
+
+.error-box {
+  width: fit-content;
+  height: 20px;
+  margin-bottom: 27px;
+}
+
+.error {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.31px;
+  color: var(--error);
 }

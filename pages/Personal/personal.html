@@ -21,11 +21,17 @@
         <form>
           <label for="name"> სახელი</label>
           <input type="text" name="name" id="name" placeholder="სახელი" />
+          <div class="error-box">
+            <p class="error" id="name-error"></p>
+          </div>
+
           <label for="surname"> გვარი</label>
           <input type="text" name="surname" id="surname" placeholder="გვარი" />
+          <div class="error-box"><p class="error" id="surname-error"></p></div>
 
           <label for="email"> მეილი</label>
           <input type="email" name="email" id="email" placeholder="ელ.ფოსტა" />
+          <div class="error-box"><p class="error" id="email-error"></p></div>
 
           <hr />
           <p class="warning">
