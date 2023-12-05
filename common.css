@@ -13,6 +13,8 @@
 :root {
   --backround: #eaeaea;
   --darkText: #232323;
+  --dark: #000000;
+  --warning: #626262;
 }
 
 body {
