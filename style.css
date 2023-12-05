@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 101px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.start-btn {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--darkText);
+  text-align: center;
+}
+
+/* .start-btn:hover {
+  font-weight: 900;
+  font-size: 40px;
+} */
